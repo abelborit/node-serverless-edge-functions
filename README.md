@@ -24,7 +24,7 @@ NOTA: En el proyecto anterior nos creamos un servidor que está corriendo en un 
 
 ### \* RECURSOS A USAR:
 
-- Paquete `Netlify CLI` usando `https://docs.netlify.com/cli/get-started/#installation-in-a-ci-environment` desde `npm install netlify-cli --save-dev`
+- Paquete `Netlify CLI` usando `https://docs.netlify.com/cli/get-started/` desde `npm install netlify-cli -g`
 - Paquete `nombre_paquete` usando `comando_paquete` desde `url_paquete`
 - Paquete `nombre_paquete` usando `comando_paquete` desde `url_paquete`
 
