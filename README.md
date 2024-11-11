@@ -37,7 +37,8 @@ NOTA: En el proyecto anterior nos creamos un servidor que está corriendo en un 
   - https://www.netlify.com/
   - https://docs.netlify.com/cli/get-started/
 
-- ejemplo
+- Posiblemente nos dará error y no nos mostrará nada o como un "404 not found", pero para mandar a llamar a las funciones por ejemplo a la de "hello". Hay que recordar que los nombres de los archivos son los nombres de las funciones, es decir, si la carpeta se llama "hello" entonces el archivo igual, entonces al url que vamos a apuntar sería "/.netlify/functions/hello" y ahí veremos nuestra respuesta pero ejecutado como una edge function. Esto nos da la posibilidad de tener una función o endpoint corriendo sin la necesidad de un servidor (en realidad sería sí está en un servidor pero en este caso de Netlify y no en uno nuestro)
+
 - ejemplo
 
 ---
