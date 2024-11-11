@@ -1,6 +1,9 @@
 import type { Context } from "@netlify/functions";
 
 export default async (req: Request, context: Context) => {
+  /* para tener en cuenta que las edge functions se ejecutan rápido pero los logs se pueden demorar un poco en aparecer */
+  console.log("Console log from variables");
+
   /* Netlify viene preconfigurado para leer variables de entorno */
   const myImportantVariables = process.env.MY_IMPORTANT_VARIABLE;
 
